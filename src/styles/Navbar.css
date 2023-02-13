@@ -57,10 +57,16 @@
   }
   
   .navbar #open .hiddenLinks {
-    display:flex;
+    display: flex;
     margin-left: 60px;
     flex-direction: column;
-    margin-top: 400px;
+    margin-top: 600px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    width: 246px;
+    height: 662px;
+    margin-left: auto;
+
   }
   
   .navbar #close .hiddenLinks {

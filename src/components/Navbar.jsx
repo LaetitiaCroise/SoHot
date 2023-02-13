@@ -14,14 +14,14 @@ function Navbar() {
     <div className='navbar'>
         <div className='leftSide' id ={openLinks ? "open" : "close"}>
             <img src={Logo} />
-            <div className='hiddenLinks'>
+            <header className='hiddenLinks'>
             <Link to ="/"> Accueil</Link>
             <Link to ="/sauces"> Nos Sauces</Link>
             <Link to ="/apropos"> A propos</Link>
             <Link to ="/contact"> Contact</Link>
-            </div>
+            </header>
         </div>
-        <div className='rightSide'>
+        <header className='rightSide'>
             <Link to ="/"> Accueil</Link>
             <Link to ="/sauces"> Nos Sauces</Link>
             <Link to ="/apropos"> A propos</Link>
@@ -29,7 +29,7 @@ function Navbar() {
             <button onClick={toggleNavbar}>
             <AiOutlineMenu />
             </button>
-        </div>
+        </header>
       
     </div>
   )
