@@ -60,12 +60,12 @@
     display: flex;
     margin-left: 60px;
     flex-direction: column;
-    margin-top: 600px;
-    background-color: rgb(255, 255, 255);
+    margin-top: 156px;
     position: absolute;
     width: 246px;
-    height: 662px;
+    height: auto;
     margin-left: auto;
+    background: rgba(253, 253, 253, 0.7);
 
   }
   
