@@ -10,8 +10,7 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    font-family: 'Lato';
-}
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;}
 
 .headerContainer{
     width: auto;
@@ -51,6 +50,7 @@
     color: white;
     text-decoration: none;
     font-size: 20px;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   }
   
   .headerContainer button:hover {
@@ -66,6 +66,7 @@
     display: flex;
     flex-direction: column-reverse;
     margin-top: 50px;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
     }
  
     .headerContainer {
