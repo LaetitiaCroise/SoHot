@@ -77,9 +77,10 @@
       width: 100%;
       display: flex;
       justify-content: center;
-      /* align-items: center; */
+      align-items: center;
       flex-direction: column;
       background-color: #121619;
+      align-content: space-around;
       color: white;
     }
   
