@@ -61,16 +61,15 @@
   
   @media only screen and (max-width: 650px) {
     .home {
-     
     justify-content: center;
     align-items: center;
     display: flex;
-    flex-direction: column;
-    margin-top: 100px;
+    flex-direction: column-reverse;
+    margin-top: 50px;
     }
  
     .headerContainer {
-      margin: 0px;
+      margin: -10px;
       padding: 20px;
       width: 100%;
       display: flex;
