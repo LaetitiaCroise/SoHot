@@ -1,0 +1,75 @@
+.sauces {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+  }
+  .sauces .titleSauces {
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande";
+    font-size: 40px;
+    margin-bottom: 50px;
+  }
+  
+  .SaucesList {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 0 390px;
+    max-width: 1100px;
+    justify-content: space-between;
+    border-radius: 20px;
+  }
+
+  
+  /* MENU ITEM STYLING */
+  
+  .sauceItem {
+    border-radius: 15px;
+    width: 325px;
+    height: 350px;
+    margin: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    cursor: pointer;
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  .sauceItem div {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    width: 58%;
+    height: 280px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .Flam{
+    margin-left: 10px;
+    display: flex;
+   
+    padding-right: 98px;
+  }
+  .sauceItem h1,
+  .sauceItem p {
+    margin-left: 20px;
+  font-size: 20px;
+    margin: 10px;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande";
+
+  }
+  
+  @media only screen and (max-width: 1300px) {
+    .sauceList {
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+  
+  @media only screen and (max-width: 800px) {
+    .sauceList {
+      grid-template-columns: 1fr;
+    }
+  }

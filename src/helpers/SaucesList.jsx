@@ -10,44 +10,39 @@ export const SaucesList = [
 {
     name: "Plum Reaper Sauces",
     image: plum,
-    price: 12.99,
+    price: 1299,
 },
 {
     name: "Roasted Garlic Sauces",
     image: Ail,
-    price: 12.99,
+    price: 1299,
 },
 
 {
-    name: "Edition Special Marie Sharp's Sauces",
+    name: " Marie Sharp's Sauces",
     image: Marie,
-    price: 14.99,
+    price: 1499,
 },
 
 {
 name: "Garlic Reaper Sauces",
 image: Garlic,
-price: 12.99,
+price: 1299,
 },
 
-{
-    name: "Dave Sauces",
-    image: dave,
-    price: 12.99,
-},
 
 {
-    name:"Viper Sauces",
+    name:"Viper Vicious Sauces",
     image: viper,
-    price: 12.99,
+    price: 1299,
 
 },
 
 {
     name:" Minis Reaper Sauces",
     image: minisauces,
-    price: 24.99,
+    price: 2499,
 },
 
 ];
-console.log([SaucesList])
+console.log(SaucesList)
