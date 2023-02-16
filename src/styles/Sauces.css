@@ -35,7 +35,7 @@
     flex-wrap: wrap;
     justify-content: center;
     cursor: pointer;
-    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+    /* box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2); */
   }
   
   .sauceItem div {
@@ -50,8 +50,11 @@
   .Flam{
     margin-left: 10px;
     display: flex;
-   
+    color: red;
     padding-right: 98px;
+  }
+  .Flam2{
+    color: gray;
   }
   .sauceItem h1,
   .sauceItem p {

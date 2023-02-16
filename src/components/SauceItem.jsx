@@ -18,8 +18,10 @@ function sauceItem(props) {
       <GoFlame />
       <GoFlame />
       <GoFlame />
+      <div className="Flam2">
       <GoFlame />
-     <GoFlame />
+      <GoFlame />
+      </div>
       
       
       </div>
