@@ -1,5 +1,5 @@
 import React from 'react';
-import { FiInstagram } from "react-icons/fi";
+import { CgInstagram } from "react-icons/cg";
 import { FaTwitterSquare } from "react-icons/fa";
 import{ FaFacebookSquare } from "react-icons/fa";
 import{ RxLinkedinLogo } from "react-icons/rx";
@@ -9,7 +9,7 @@ function Footer() {
   return (
     <div className='footer'>
         <div className='socialMedia'>
-          <FiInstagram />
+          <CgInstagram />
           <FaTwitterSquare />
           <FaFacebookSquare/>
           <RxLinkedinLogo />
