@@ -87,3 +87,12 @@
     border-radius: 10px;
     font-weight: 600;
   }
+
+  @media only screen and (max-width: 650px) {
+    .contact {
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+
+  }
