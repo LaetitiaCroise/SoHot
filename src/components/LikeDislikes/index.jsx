@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import './LikeDislike.css'
 
 
 
@@ -43,10 +44,10 @@ function likeDislike(){
     return(
         <React.Fragment>
         <div className="likeDislikeM"></div>
-        <div></div>
+        
         <button onClick={likef} className={[likeactive ? 'active-like':null,'button'].join('')}>Like{like}</button>
-        <button onClick={dislikef} className={[dislikeactive ? 'active-dislike':null 'button'].join('')}>Dislike{dislike}</button>
-        <div></div>
+        <button onClick={dislikef} className={[dislikeactive ? 'active-dislike':null, 'button'].join('')}>Dislike{dislike}</button>
+      
         </React.Fragment>
         
     );
