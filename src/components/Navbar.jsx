@@ -17,14 +17,14 @@ function Navbar() {
             <header className='hiddenLinks'>
             <Link to ="/"> Accueil</Link>
             <Link to ="/sauces"> Nos Sauces</Link>
-            <Link to ="/apropos"> A propos</Link>
+            <Link to ="/about"> A propos</Link>
             <Link to ="/contact"> Contact</Link>
             </header>
         </div>
         <header className='rightSide'>
             <Link to ="/"> Accueil</Link>
             <Link to ="/sauces"> Nos Sauces</Link>
-            <Link to ="/apropos"> A propos</Link>
+            <Link to ="/about"> A propos</Link>
             <Link to ="/contact"> Contact</Link>
             <button onClick={toggleNavbar}>
             <AiOutlineMenu />
