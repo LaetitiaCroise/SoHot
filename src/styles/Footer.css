@@ -7,10 +7,8 @@
     align-items: center;
     flex-direction: column;
     padding: 25px 0;
+    margin-top: 37px;
     
-
-   
-
 }
 .socialMedia svg{
     color: white;
@@ -40,6 +38,7 @@
         align-items: center;
         flex-direction: column;
         padding: 25px 0;
+        
     
     }
 }

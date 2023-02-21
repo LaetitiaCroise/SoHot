@@ -1,10 +1,13 @@
 import React, { useState } from "react";
-import './LikeDislike.css'
+import './LikeDislike.css';
+import { AiFillLike } from "react-icons/ai";
+import { AiFillDislike } from "react-icons/ai"
 
 
 
-function likeDislike(){
-    const [like,setlike] = useState(100)
+
+function likeDislike() {
+    const [like,setlike] = useState(10)
     const [dislike,setdislike] = useState(4)
     
     const [likeactive,setlikeactive] = useState(false)
@@ -17,7 +20,7 @@ function likeDislike(){
         } else{
             setlikeactive(true)
             setlike(like+1)
-            if (dislikeactive){
+            if(dislikeactive){
                 setdislikeactive(false)
                 setlike(like+1)
                 setdislike(dislike-1)
@@ -28,14 +31,14 @@ function likeDislike(){
     function dislikef(){
         if(dislikeactive){
             setdislikeactive(false)
-            setdislike(like-1)
+            setdislike(dislike-1)
         } else{
             setdislikeactive(true)
-            setdislike(like+1)
+            setdislike(dislike+1)
             if (likeactive){
                 setlikeactive(false)
-                setdislike(like+1)
-                setlike(dislike-1)
+                setdislike(dislike+1)
+                setlike(like-1)
             }
 
         }
@@ -43,10 +46,11 @@ function likeDislike(){
 
     return(
         <React.Fragment>
-        <div className="likeDislikeM"></div>
+        {/* <div className="likeDislikeM"></div> */}
         
-        <button onClick={likef} className={[likeactive ? 'active-like':null,'button'].join('')}>Like{like}</button>
-        <button onClick={dislikef} className={[dislikeactive ? 'active-dislike':null, 'button'].join('')}>Dislike{dislike}</button>
+        <button onClick={likef} className={[likeactive ? 'active-like':null,'button'].join('')}><AiFillLike />{like}</button>
+        <button onClick={dislikef} className={[dislikeactive ? 'active-dislike':null, 'button'].join('')}><AiFillDislike />{dislike}</button>
+        
       
         </React.Fragment>
         

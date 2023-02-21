@@ -2,23 +2,42 @@
     display: grid;
     grid-auto-flow: column;
     grid-column-gap: 10px;
+    
 }
-.active-like{
-    background-color: blue;
-    color: white;
+.active-dislikebutton{
 
-}
-.active-dislike{
-
-    background-color: red;
-    color: white;
-}
-.button{
-    border-radius: 8px;
+    color: rgb(0, 0, 0);
+    height: 30px;
+    width: 30%;
+    border: none;
+    color: red;
     font-size: 20px;
-color: black;
-padding: 20px;
-text-align: center;
-overflow: hidden;
-cursor: pointer;
+    background-color: transparent;
+
+
 }
+.active-likebutton{
+    color: rgb(2, 209, 95);
+    height: 30px;
+    width: 30%;
+    border: none;
+    font-size: 20px;
+    background-color: transparent;
+
+
+}
+.button {
+
+    font-size: 20px;
+    color: black;
+    text-align: center;
+    overflow: hidden;
+    cursor: pointer;
+    height: 30px;
+    width: 30%;
+    border: none;
+    background-color: transparent;
+    
+}
+
+

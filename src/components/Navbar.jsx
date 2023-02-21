@@ -9,10 +9,11 @@ function Navbar() {
     const [openLinks, setOpenLinks] = useState(false);
     const toggleNavbar = () => {
         setOpenLinks (!openLinks);
+        
     }
   return (
     <div className='navbar'>
-        <div className='leftSide' id ={openLinks ? "open" : "close"}>
+        <div className='leftSide' id  ={openLinks ? "open" : "close"}>
             <img src={Logo} />
             <header className='hiddenLinks'>
             <Link to ="/"> Accueil</Link>

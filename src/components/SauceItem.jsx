@@ -1,6 +1,7 @@
 
 import React from "react";
 import { GoFlame } from "react-icons/go";
+import LikeDislike from '../components/LikeDislikes';
 
 
 
@@ -12,22 +13,15 @@ const data = props.datas
   return (
     
     <div className="sauceItem">
+      <div className="imagesSauces">
       <div style={{backgroundImage:`url(${data.image})`}}></div>
+      </div>
       <h1> {data.name} </h1>
-      <p> €{data.price / 100} </p>
+      {/* <p> €{data.price / 100} </p> */}
       
       <div className="Flam">
-      <GoFlame />
-      <GoFlame />
-      <GoFlame />
-      <GoFlame />
-      <div className="Flam2">
-      <GoFlame />
-      <GoFlame />
-      </div>
+      <LikeDislike />
 
-      
-      
       </div>
 
     </div>
