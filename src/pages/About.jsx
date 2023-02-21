@@ -1,12 +1,12 @@
 import React from 'react';
-import Chili from "../assets/chilie.jpg";
+import Chilli from "../assets/chilli.jpg";
 import '../styles/About.css';
 
 
 function About() {
   return (
     <div className='about'>
-        <div className='aboutTop' style={{ backgroundImage:`url(${Chili})` }}>
+        <div className='aboutTop' style={{ backgroundImage:`url(${Chilli})` }}>
         </div>
         <div className='aboutBottom'>
             <h1> A propos de nous </h1>
