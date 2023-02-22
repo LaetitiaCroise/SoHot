@@ -8,7 +8,7 @@
 
     color: rgb(0, 0, 0);
     height: 30px;
-    width: 40%;
+    width: 25%;
     border: none;
     color: red;
     font-size: 20px;
@@ -19,7 +19,7 @@
 .active-likebutton{
     color: rgb(2, 209, 95);
     height: 30px;
-    width: 40%;
+    width: 25%;
     border: none;
     font-size: 20px;
     background-color: transparent;
@@ -34,7 +34,7 @@
     overflow: hidden;
     cursor: pointer;
     height: 30px;
-    width: 40%;
+    width: 25%;
     border: none;
     background-color: transparent;
     

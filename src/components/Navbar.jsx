@@ -13,7 +13,7 @@ function Navbar() {
     }
   return (
     <div className='navbar'>
-        <div className='leftSide' id  ={openLinks ? "open" : "close"}>
+        <div className='leftSide' id={openLinks ? "open" : "close"}>
             <img src={Logo} />
             <header className='hiddenLinks'>
             <Link to ="/"> Accueil</Link>
@@ -22,6 +22,7 @@ function Navbar() {
             <Link to ="/contact"> Contact</Link>
             </header>
         </div>
+
         <header className='rightSide'>
             <Link to ="/"> Accueil</Link>
             <Link to ="/sauces"> Nos Sauces</Link>
@@ -33,7 +34,9 @@ function Navbar() {
         </header>
       
     </div>
-  )
+  );
 }
 
 export default Navbar;
+
+
