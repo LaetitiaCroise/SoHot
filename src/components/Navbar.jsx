@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import Logo from "../assets/Sohot.png";
 import { Link } from "react-router-dom";
-// import MenuIcon from '@mui/icons-material/Menu';
 import { AiOutlineMenu } from "react-icons/ai";
 import "../styles/Navbar.css";
 
