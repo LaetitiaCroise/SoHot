@@ -30,6 +30,7 @@ function likeDislike() {
                 setdislikeactive(false)
                 setlike(like+1)
                 setdislike(dislike-1)
+                alert('merci')
                 
                 
             }
@@ -49,6 +50,7 @@ function likeDislike() {
                 setlikeactive(false)
                 setdislike(dislike+1)
                 setlike(like-1)
+                alert('merci')
                 
             }
 
