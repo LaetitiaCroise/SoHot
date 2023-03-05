@@ -16,7 +16,8 @@ function likeDislike() {
     function likef(){
         if(likeactive){
             setlikeactive(false)
-            setlike(like-1)
+            setlike(like-1) 
+            
         } else{
             setlikeactive(true)
             setlike(like+1)
