@@ -12,7 +12,6 @@ function likeDislike() {
     
     const [likeactive,setlikeactive] = useState(false)
     const [dislikeactive,setdislikeactive] = useState(false)
-    const likef = prompt (like) ; 
 
 
 
@@ -29,6 +28,7 @@ function likeDislike() {
                 setdislikeactive(false)
                 setlike(like+1)
                 setdislike(dislike-1)
+                alert('merci')
             }
 
         }
@@ -53,8 +53,8 @@ function likeDislike() {
         <React.Fragment>
         {/* <div className="likeDislikeM"></div> */}
         
-        <button onClick={likef} className={[likeactive ? 'active-like':null,'button'].join('')}><AiFillLike />{like}</button>
-        <button onClick={dislikef} className={[dislikeactive ? 'active-dislike':null, 'button'].join('')}><AiFillDislike />{dislike}</button>
+        <button onClick={like} className={[likeactive ? 'active-like':null,'button'].join('')}><AiFillLike />{like}</button>
+        <button onClick={dislike} className={[dislikeactive ? 'active-dislike':null, 'button'].join('')}><AiFillDislike />{dislike}</button>
         
       
         </React.Fragment>
