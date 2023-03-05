@@ -12,11 +12,15 @@ function likeDislike() {
     
     const [likeactive,setlikeactive] = useState(false)
     const [dislikeactive,setdislikeactive] = useState(false)
+    const likef = prompt (like) ; 
+
+
 
     function likef(){
         if(likeactive){
             setlikeactive(false)
             setlike(like-1) 
+            
             
         } else{
             setlikeactive(true)
