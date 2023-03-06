@@ -1,7 +1,7 @@
+
 import React from 'react';
 import { CgInstagram } from "react-icons/cg";
-import { FaTwitterSquare } from "react-icons/fa";
-import{ FaFacebookSquare } from "react-icons/fa";
+import { FaTwitterSquare, FaFacebookSquare } from "react-icons/fa";
 import{ RxLinkedinLogo } from "react-icons/rx";
 import '../styles/Footer.css';
 
