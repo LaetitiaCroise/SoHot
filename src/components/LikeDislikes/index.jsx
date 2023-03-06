@@ -19,18 +19,17 @@ function likeDislike() {
         if(likeactive){
             setlikeactive(false)
             setlike(like-1)
-            alert('merci')
+            alert('merci pour votre avis')
             
             
         } else{
             setlikeactive(true)
             setlike(like+1)
-            alert('merci')
+            alert('merci pour votre avis')
             if(dislikeactive){
                 setdislikeactive(false)
                 setlike(like+1)
                 setdislike(dislike-1)
-                alert('merci')
                 
                 
             }
@@ -41,16 +40,15 @@ function likeDislike() {
         if(dislikeactive){
             setdislikeactive(false)
             setdislike(dislike-1)
-            alert('merci')
+            alert('merci votre avis')
         } else{
             setdislikeactive(true)
             setdislike(dislike+1)
-            alert('merci')
+            alert('merci pour votre avis')
             if (likeactive){
                 setlikeactive(false)
                 setdislike(dislike+1)
                 setlike(like-1)
-                alert('merci')
                 
             }
 
