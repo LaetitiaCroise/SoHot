@@ -40,6 +40,7 @@ function likeDislike() {
         if(dislikeactive){
             setdislikeactive(false)
             setdislike(dislike-1)
+            localStorage.setDislike('')
             alert('merci votre avis')
         } else{
             setdislikeactive(true)
