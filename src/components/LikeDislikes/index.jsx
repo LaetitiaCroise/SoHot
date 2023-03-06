@@ -1,8 +1,6 @@
 import React, { useState } from "react";
 import './LikeDislike.css';
-import { AiFillLike } from "react-icons/ai";
-import { AiFillDislike } from "react-icons/ai";
-
+import { AiFillLike, AiFillDislike} from 'react-icons/ai'
 
 
 
