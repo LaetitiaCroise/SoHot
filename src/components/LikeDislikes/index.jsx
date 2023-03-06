@@ -38,7 +38,7 @@ function likeDislike() {
         if(dislikeactive){
             setdislikeactive(false)
             setdislike(dislike-1)
-            localStorage.setDislike('')
+            localStorage.setDislike('dislike', JSON.stringify(dislike));
             alert('merci votre avis')
         } else{
             setdislikeactive(true)
