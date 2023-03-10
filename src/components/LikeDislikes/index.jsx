@@ -55,14 +55,14 @@ function likeDislike() {
     }
 
     return(
-        <React.Fragment>
+        <>
         {/* <div className="likeDislikeM"></div> */}
         
         <button onClick={likef} className={[likeactive ? 'active-like':null,'button'].join('')}><AiFillLike />{like}</button>
         <button onClick={dislikef} className={[dislikeactive ? 'active-dislike':null, 'button'].join('')}><AiFillDislike />{dislike}</button>
         
       
-        </React.Fragment>
+        </>
         
     );
 }
