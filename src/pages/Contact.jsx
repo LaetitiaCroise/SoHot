@@ -5,7 +5,7 @@ import '../styles/Contact.css';
 function Contact() {
  const { handleSubmit, register, reset, formState : {error}} = useForm ()
  function onSubmit (data) {
-  console.log (data);
+  // console.log (data);
   reset();
   alert ('messages envoyé !')
  }
