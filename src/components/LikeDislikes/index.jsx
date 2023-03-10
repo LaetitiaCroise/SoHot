@@ -8,8 +8,8 @@ function likeDislike() {
     const [like,setlike] = useState(10)
     const [dislike,setdislike] = useState(4)
     
-    const [likeactive,setlikeactive] = useState(true)
-    const [dislikeactive,setdislikeactive] = useState(true)
+    const [likeactive,setlikeactive] = useState(false)
+    const [dislikeactive,setdislikeactive] = useState(false)
 
 
 
