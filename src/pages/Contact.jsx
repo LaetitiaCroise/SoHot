@@ -2,10 +2,14 @@ import React from 'react';
 import { useForm } from 'react-hook-form';
 import Sharp from '../assets/sharp.jpg';
 import '../styles/Contact.css';
+
+
 function Contact() {
- const { handleSubmit, register, reset, formState : {error}} = useForm ()
+ const { handleSubmit, register, reset, formState: {}} = useForm ()
+
+ 
  function onSubmit (data) {
-  // console.log (data);
+
   reset();
   alert ('messages envoyé !')
  }

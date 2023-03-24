@@ -1,11 +1,12 @@
 
 import React from "react";
-import { GoFlame } from "react-icons/go";
+import React, { useState, useEffect } from 'react';
 import LikeDislike from '../components/LikeDislikes';
 
 
 
 function sauceItem(props) {
+  
 
 const data = props.datas
 
