@@ -1,6 +1,5 @@
 
-import React from "react";
-import React, { useState, useEffect } from 'react';
+import React, {useEffect} from 'react';
 import LikeDislike from '../components/LikeDislikes';
 
 
@@ -11,7 +10,9 @@ function sauceItem(props) {
 const data = props.datas
 
 
+
   return (
+
     
     <div className="sauceItem">
       <div className="imagesSauces">
